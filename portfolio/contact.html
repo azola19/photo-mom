@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng@">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+<link rel="stylesheet" title="text/css" href="style.css">
+<style>
+
+  .footer{
+  
+  background-color: rgb(63, 62, 62);;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  }
+  
+  body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main{
+    flex: 1 0 auto;
+  }
+  </style>
+
+ <title>azola's portfolio</title>
+
+<nav id="nav">
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About me</a></li>
+ <li><a href="work.html">Work</a></li>
+ <li><a href="contact.html" class="active">Contact</a></li>
+ </ul>
+ </nav>
+ <script src="https://www.google.com/recaptcha/api.js"></script>
+ </head>
+<body>
+<div class="bottom">
+<p id="large">Have any  other requests or questions? </p>
+<p> Fill in the form below <br> and i will get back to you ASAP!</p>
+</div>
+<div class="form">
+  <h1>contact</h1>
+
+<form>
+  <input type="hidden"  name="_next" value="https://heuristic-swanson-c8ed12.netlify.app/submit.html">
+<input class="name" id="first" type="text" name="name" placeholder="Names" required>
+<input class="email" id="mail" type="text" placeholder="Email address" required>
+<div class="text">
+<textarea class="message"  id="text" rows="4" cols="22">Enter text here...</textarea>
+</div>
+
+<button type="submit"id="submit">Submit</button>
+</form>
+
+
+</div>
+ 
+<header></header>
+<main></main>
+<div class="footer">
+<div id="icons">
+<p><h6>&copy; 2021 Azola Mafilika</h6></p>
+ <a href="https://www.linkedin.com/in/azola-mafilika-5a0b3320a"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/azola19"><i class="fab fa-github"></i></a>
+<a href="mailto:azolamafilika18@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
